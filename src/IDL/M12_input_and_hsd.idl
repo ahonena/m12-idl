@@ -1,0 +1,10 @@
+enum hsd_direction_enum{FORWARD, BACKWARD, UNKNOWN};
+
+struct M12_input_and_hsd{
+octet gas_pedal;
+boolean buttons[4];
+octet joystick_x;
+octet joystick_y;
+uint16 hsd_motor_speed;
+hsd_direction_enum hsd_direction;
+};

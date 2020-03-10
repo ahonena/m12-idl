@@ -1,0 +1,4 @@
+struct M12_RawCAN{
+	int32 COBID;
+	octet data[8];
+};
