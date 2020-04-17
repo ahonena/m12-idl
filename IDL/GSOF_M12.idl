@@ -1,0 +1,17 @@
+struct GSOF_M12{
+bool differential_position;
+double latitude;
+double longitude;
+double height;
+
+float sigma_east;
+float sigma_north;
+float sigma_up;
+
+float speed;
+float heading;
+
+double pitch;
+double yaw;
+double roll;
+}

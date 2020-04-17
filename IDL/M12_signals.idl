@@ -1,0 +1,3 @@
+struct M12_signals{
+bool reset_localization;
+}
