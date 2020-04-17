@@ -1,5 +1,5 @@
 struct GSOF_M12{
-bool differential_position;
+boolean differential_position;
 double latitude;
 double longitude;
 double height;
@@ -14,4 +14,4 @@ float heading;
 double pitch;
 double yaw;
 double roll;
-}
+};
